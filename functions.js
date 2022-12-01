@@ -96,7 +96,6 @@ function createFormItem(label_text, id) {
     const input = document.createElement("input");
     input.type = "number";
     input.id = "input_" + id;
-    input.value = 0;
     block.appendChild(label);
     block.appendChild(input);
     return block
