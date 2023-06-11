@@ -2,7 +2,7 @@ const state = {perscent: "perscent", targetAmount: "targetAmount", term: "term"}
 var currentState = state.targetAmount;
 
 const formItems = {
-    baseAmount: createFormItem( "baseAmount"),
+    baseAmount: createFormItem( "Начальная сумма", "baseAmount"),
     replenishmentAmount: createFormItem("Ежемесячное пополнение вклада", "replenishmentAmount"),
     targetAmount: createFormItem("Целевая сумма", "targetAmount"),
     term: createFormItem("Срок(Месяцы)", "term"),
@@ -10,7 +10,7 @@ const formItems = {
 }
 
 const switcherItems = {
-    perscent: createSwitcherItem( "perscent"),
+    perscent: createSwitcherItem( "Проценты", "perscent"),
     targetAmount: createSwitcherItem("Прибыль", "targetAmount"),
     term: createSwitcherItem("Срок", "term"),
 }
